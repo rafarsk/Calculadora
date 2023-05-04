@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+    <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
+    <style> @import url('https://fonts.cdnfonts.com/css/calculator'); </style>           
+</head>
+
+<body style="background-color: #857760">
+  <div class="quadro">
+    <h1>Calculadora</h1>
+    <input type="text" id="resultado" readonly>
+    <br>
+    <button onclick="inserirNumero('1')">1</button>
+    <button onclick="inserirNumero('2')">2</button>
+    <button onclick="inserirNumero('3')">3</button>
+    <button onclick="inserirOperador('+')">+</button>
+    <br>
+    <button onclick="inserirNumero('4')">4</button>
+    <button onclick="inserirNumero('5')">5</button>
+    <button onclick="inserirNumero('6')">6</button>
+    <button onclick="inserirOperador('-')">-</button>
+    <br>
+    <button onclick="inserirNumero('7')">7</button>
+    <button onclick="inserirNumero('8')">8</button>
+    <button onclick="inserirNumero('9')">9</button>
+    <button onclick="inserirOperador('*')">*</button>
+    <br>
+    <button onclick="inserirNumero('0')">0</button>
+    <button onclick="inserirOperador('/')">/</button>
+    <button onclick="limpar()">C</button>
+    <button onclick="calcular()">=</button>
+  </div>
+  </body>
+  
+  <script src="calculadora.js"></script>
+
+</html>
